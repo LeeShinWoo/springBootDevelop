@@ -6,7 +6,7 @@ import org.apache.catalina.connector.Connector;
 import org.apache.catalina.startup.Tomcat;
 
 import jakarta.servlet.Servlet;
-import springBootDevelop.servlet.MainServlet;
+import springBootDevelop.servlet.DispatcherServlet;
 
 public class TomcatServer implements Server{
 	Tomcat tomcat;
